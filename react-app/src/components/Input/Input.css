@@ -1,0 +1,28 @@
+.inputConteiner {
+    align-items: center;
+    padding: px;
+
+}
+
+.inputContent {
+    background-color: gray;
+    width: 285px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 25;
+    color: aliceblue;
+    padding-left: 15px;
+    margin: 10px;
+    border: 0;
+    box-shadow:3px 3px 5px rgba(0, 0, 0, 0.3);
+    
+    
+
+}
+::-webkit-input-placeholder {
+    color: aliceblue;
+
+ }
