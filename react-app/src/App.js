@@ -4,9 +4,14 @@ import LoginBox from "./components/LoginBox/LoginBox.js"
 function App() {
 
   return (
-    <div className="App">
-      <h1>Mechafix</h1>
-     <LoginBox/>
+    <div className="appConteiner">
+      <div className="logo">
+        <h1 >Mechafix</h1>
+        <img  src="Mechanic.png" alt="Mechanic" />
+      </div>
+      <div>
+        <LoginBox/>
+      </div>
     </div>
   );
 }
